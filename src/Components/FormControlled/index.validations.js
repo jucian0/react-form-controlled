@@ -10,6 +10,6 @@ export const FormValidations = yup.object().shape({
       .required('E-mail is required'),
     password: yup
       .string()
-      .min(8, 'Minimum 8 characters')
-      .max(20, 'Max 20 characters')
+      .min(8, 'Minimum 8 chars')
+      .max(20, 'Max 20 chars')
 })
