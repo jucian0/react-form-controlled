@@ -27,6 +27,7 @@ const UserForm = () => {
                      name="name"
                      onChange={e => setInput({ name: e.target.value })}
                      label="Name"
+                     value={form.name}
                      error={errors.name}
                   />
                </div>
@@ -35,6 +36,7 @@ const UserForm = () => {
                      name="email"
                      onChange={e => setInput({ email: e.target.value })}
                      label="E-mail"
+                     value={form.email}
                      error={errors.email}
                   />
                </div>
@@ -43,6 +45,7 @@ const UserForm = () => {
                      name="password"
                      onChange={e => setInput({ password: e.target.value })}
                      label="Password"
+                     value={form.password}
                      error={errors.password}
                   />
                </div>
